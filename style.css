@@ -10,14 +10,14 @@ body {
     font-family: sans-serif;
 }
 
-/* Title */
+
 .main-head {
     font-size: clamp(24px, 5vw, 44px);
     padding: 15px 10px;
     color: rgb(15, 16, 16);
 }
 
-/* Main container */
+
 .container {
     min-height: 60vh;
     display: flex;
@@ -26,7 +26,7 @@ body {
     padding: 10px;
 }
 
-/* Game grid */
+
 .game {
     width: 90vmin;
     max-width: 400px;
@@ -38,7 +38,6 @@ body {
     gap: 2vmin;
 }
 
-/* Boxes */
 .box {
     width: 28%;
     aspect-ratio: 1;
@@ -49,7 +48,7 @@ body {
     background-color: #ebeb8c;
 }
 
-/* Buttons */
+
 .reset-btn,
 #new-btn {
     padding: 12px 20px;
@@ -61,24 +60,24 @@ body {
     margin-top: 15px;
 }
 
-/* Message */
+
 #msg {
     color: #ffffb8;
     font-size: clamp(18px, 4vmin, 28px);
     padding: 15px;
 }
 
-/* Message container */
+
 .msg-container {
     min-height: 80px;
 }
 
-/* Hide */
+
 .hide {
     display: none;
 }
 
-/* 📱 Extra small devices */
+
 @media (max-width: 400px) {
     .game {
         width: 95vmin;
