@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #548687;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* Title */
+.main-head {
+    font-size: clamp(24px, 5vw, 44px);
+    padding: 15px 10px;
+    color: rgb(15, 16, 16);
+}
+
+/* Main container */
+.container {
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+/* Game grid */
+.game {
+    width: 90vmin;
+    max-width: 400px;
+    aspect-ratio: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmin;
+}
+
+/* Boxes */
+.box {
+    width: 28%;
+    aspect-ratio: 1;
+    border-radius: 1rem;
+    border: none;
+    font-size: clamp(24px, 6vmin, 40px);
+    color: #a81a15;
+    background-color: #ebeb8c;
+}
+
+/* Buttons */
+.reset-btn,
+#new-btn {
+    padding: 12px 20px;
+    font-size: clamp(14px, 2.5vw, 18px);
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 15px;
+}
+
+/* Message */
+#msg {
+    color: #ffffb8;
+    font-size: clamp(18px, 4vmin, 28px);
+    padding: 15px;
+}
+
+/* Message container */
+.msg-container {
+    min-height: 80px;
+}
+
+/* Hide */
+.hide {
+    display: none;
+}
+
+/* 📱 Extra small devices */
+@media (max-width: 400px) {
+    .game {
+        width: 95vmin;
+    }
+
+    .box {
+        font-size: 5vmin;
+    }
+}
